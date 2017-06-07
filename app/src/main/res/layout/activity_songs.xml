@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_songs"
+    style="@style/ActivitiesStyle"
+    tools:context="com.example.android.mymusicapp.SongsActivity">
+
+    <ScrollView
+        style="@style/MatchWrap"
+        android:layout_above="@+id/nowplaying"
+        android:padding="@dimen/margin">
+        <LinearLayout
+            style="@style/MatchWrap"
+            android:orientation="vertical">
+
+            <RelativeLayout style="@style/Boxes_Layout">
+
+                <ImageView
+                    android:id="@+id/justin_cover"
+                    android:layout_width="@dimen/album"
+                    android:layout_height="@dimen/album"
+                    android:src="@drawable/justin" />
+
+                <TextView
+                    android:id="@+id/justin_title"
+                    style="@style/TextStyle"
+                    android:layout_toRightOf="@id/justin_cover"
+                    android:text="@string/justin_song"
+                    android:textSize="@dimen/primary_text" />
+
+                <TextView
+                    android:id="@+id/justin_album_name"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/justin_title"
+                    android:layout_toRightOf="@id/justin_cover"
+                    android:text="@string/justin_album"
+                    android:textSize="@dimen/secondary_text" />
+
+                <TextView
+                    android:id="@+id/justin_name"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/justin_album_name"
+                    android:layout_toRightOf="@id/justin_cover"
+                    android:text="@string/justin"
+                    android:textSize="@dimen/secondary_text" />
+
+                <ImageButton style="@style/Like_Buttons" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/Boxes_Layout">
+
+                <ImageView
+                    android:id="@+id/guns_cover3"
+                    android:layout_width="@dimen/album"
+                    android:layout_height="@dimen/album"
+                    android:src="@drawable/guns" />
+
+                <TextView
+                    android:id="@+id/guns_title3"
+                    style="@style/TextStyle"
+                    android:layout_toRightOf="@id/guns_cover3"
+                    android:text="@string/guns_song3"
+                    android:textSize="@dimen/primary_text" />
+
+                <TextView
+                    android:id="@+id/guns_album_name3"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/guns_title3"
+                    android:layout_toRightOf="@id/guns_cover3"
+                    android:text="@string/guns_album"
+                    android:textSize="@dimen/secondary_text" />
+
+                <TextView
+                    android:id="@+id/guns_name3"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/guns_album_name3"
+                    android:layout_toRightOf="@id/guns_cover3"
+                    android:text="@string/guns"
+                    android:textSize="@dimen/secondary_text" />
+
+                <ImageButton style="@style/Like_Buttons" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/Boxes_Layout">
+
+                <ImageView
+                    android:id="@+id/ed_cover"
+                    android:layout_width="@dimen/album"
+                    android:layout_height="@dimen/album"
+                    android:src="@drawable/ed" />
+
+                <TextView
+                    android:id="@+id/ed_title"
+                    style="@style/TextStyle"
+                    android:layout_toRightOf="@id/ed_cover"
+                    android:text="@string/ed_song"
+                    android:textSize="@dimen/primary_text" />
+
+                <TextView
+                    android:id="@+id/ed_album_name"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/ed_title"
+                    android:layout_toRightOf="@id/ed_cover"
+                    android:text="@string/ed_album"
+                    android:textSize="@dimen/secondary_text" />
+
+                <TextView
+                    android:id="@+id/ed_name"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/ed_album_name"
+                    android:layout_toRightOf="@id/ed_cover"
+                    android:text="@string/ed"
+                    android:textSize="@dimen/secondary_text" />
+
+                <ImageButton style="@style/Like_Buttons" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/Boxes_Layout">
+
+                <ImageView
+                    android:id="@+id/wiz_cover"
+                    android:layout_width="@dimen/album"
+                    android:layout_height="@dimen/album"
+                    android:src="@drawable/wiz" />
+
+                <TextView
+                    android:id="@+id/wiz_title"
+                    style="@style/TextStyle"
+                    android:layout_toRightOf="@id/wiz_cover"
+                    android:text="@string/wiz_song"
+                    android:textSize="@dimen/primary_text" />
+
+                <TextView
+                    android:id="@+id/wiz_album_name"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/wiz_title"
+                    android:layout_toRightOf="@id/wiz_cover"
+                    android:text="@string/wiz_album"
+                    android:textSize="@dimen/secondary_text" />
+
+                <TextView
+                    android:id="@+id/wiz_name"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/wiz_album_name"
+                    android:layout_toRightOf="@id/wiz_cover"
+                    android:text="@string/wiz"
+                    android:textSize="@dimen/secondary_text" />
+
+                <ImageButton style="@style/Like_Buttons" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/Boxes_Layout">
+
+                <ImageView
+                    android:id="@+id/bon_cover1"
+                    android:layout_width="@dimen/album"
+                    android:layout_height="@dimen/album"
+                    android:src="@drawable/bonjovi" />
+
+                <TextView
+                    android:id="@+id/bon_title1"
+                    style="@style/TextStyle"
+                    android:layout_toRightOf="@id/bon_cover1"
+                    android:text="@string/bon_song1"
+                    android:textSize="@dimen/primary_text" />
+
+                <TextView
+                    android:id="@+id/bon_album_name1"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/bon_title1"
+                    android:layout_toRightOf="@id/bon_cover1"
+                    android:text="@string/bon_album"
+                    android:textSize="@dimen/secondary_text" />
+
+                <TextView
+                    android:id="@+id/bon_name1"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/bon_album_name1"
+                    android:layout_toRightOf="@id/bon_cover1"
+                    android:text="@string/bon"
+                    android:textSize="@dimen/secondary_text" />
+
+                <ImageButton style="@style/Like_Buttons" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/Boxes_Layout">
+
+                <ImageView
+                    android:id="@+id/guns_cover1"
+                    android:layout_width="@dimen/album"
+                    android:layout_height="@dimen/album"
+                    android:src="@drawable/guns" />
+
+                <TextView
+                    android:id="@+id/guns_title1"
+                    style="@style/TextStyle"
+                    android:layout_toRightOf="@id/guns_cover1"
+                    android:text="@string/guns_song1"
+                    android:textSize="@dimen/primary_text" />
+
+                <TextView
+                    android:id="@+id/guns_album_name1"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/guns_title1"
+                    android:layout_toRightOf="@id/guns_cover1"
+                    android:text="@string/guns_album"
+                    android:textSize="@dimen/secondary_text" />
+
+                <TextView
+                    android:id="@+id/guns_name1"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/guns_album_name1"
+                    android:layout_toRightOf="@id/guns_cover1"
+                    android:text="@string/guns"
+                    android:textSize="@dimen/secondary_text" />
+
+                <ImageButton style="@style/Like_Buttons" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/Boxes_Layout">
+
+                <ImageView
+                    android:id="@+id/despacito_cover"
+                    android:layout_width="@dimen/album"
+                    android:layout_height="@dimen/album"
+                    android:src="@drawable/despacit" />
+
+                <TextView
+                    android:id="@+id/despacito_title"
+                    style="@style/TextStyle"
+                    android:layout_toRightOf="@id/despacito_cover"
+                    android:text="@string/despacito"
+                    android:textSize="@dimen/primary_text" />
+
+                <TextView
+                    android:id="@+id/despacito_album_name"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/despacito_title"
+                    android:layout_toRightOf="@id/despacito_cover"
+                    android:text="@string/despacito"
+                    android:textSize="@dimen/secondary_text" />
+
+                <TextView
+                    android:id="@+id/despacito_name"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/despacito_album_name"
+                    android:layout_toRightOf="@id/despacito_cover"
+                    android:text="@string/luis_daddy"
+                    android:textSize="@dimen/secondary_text" />
+
+                <ImageButton style="@style/Like_Buttons" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/Boxes_Layout">
+
+                <ImageView
+                    android:id="@+id/metallica_cover1"
+                    android:layout_width="@dimen/album"
+                    android:layout_height="@dimen/album"
+                    android:src="@drawable/metallica" />
+
+                <TextView
+                    android:id="@+id/metallica_title1"
+                    style="@style/TextStyle"
+                    android:layout_toRightOf="@id/metallica_cover1"
+                    android:text="@string/metallica_song1"
+                    android:textSize="@dimen/primary_text" />
+
+                <TextView
+                    android:id="@+id/metallica_album_name1"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/metallica_title1"
+                    android:layout_toRightOf="@id/metallica_cover1"
+                    android:text="@string/metallica_album"
+                    android:textSize="@dimen/secondary_text" />
+
+                <TextView
+                    android:id="@+id/metallica_name1"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/metallica_album_name1"
+                    android:layout_toRightOf="@id/metallica_cover1"
+                    android:text="@string/metallica"
+                    android:textSize="@dimen/secondary_text" />
+
+                <ImageButton style="@style/Like_Buttons" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/Boxes_Layout">
+
+                <ImageView
+                    android:id="@+id/bon_cover2"
+                    android:layout_width="@dimen/album"
+                    android:layout_height="@dimen/album"
+                    android:src="@drawable/bonjovi" />
+
+                <TextView
+                    android:id="@+id/bon_title2"
+                    style="@style/TextStyle"
+                    android:layout_toRightOf="@id/bon_cover2"
+                    android:text="@string/bon_song2"
+                    android:textSize="@dimen/primary_text" />
+
+                <TextView
+                    android:id="@+id/bon_album_name2"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/bon_title2"
+                    android:layout_toRightOf="@id/bon_cover2"
+                    android:text="@string/bon_album"
+                    android:textSize="@dimen/secondary_text" />
+
+                <TextView
+                    android:id="@+id/bon_name2"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/bon_album_name2"
+                    android:layout_toRightOf="@id/bon_cover2"
+                    android:text="@string/bon"
+                    android:textSize="@dimen/secondary_text" />
+
+                <ImageButton style="@style/Like_Buttons" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/Boxes_Layout">
+
+                <ImageView
+                    android:id="@+id/guns_cover2"
+                    android:layout_width="@dimen/album"
+                    android:layout_height="@dimen/album"
+                    android:src="@drawable/guns" />
+
+                <TextView
+                    android:id="@+id/guns_title2"
+                    style="@style/TextStyle"
+                    android:layout_toRightOf="@id/guns_cover2"
+                    android:text="@string/guns_song2"
+                    android:textSize="@dimen/primary_text" />
+
+                <TextView
+                    android:id="@+id/guns_album_name2"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/guns_title2"
+                    android:layout_toRightOf="@id/guns_cover2"
+                    android:text="@string/guns_album"
+                    android:textSize="@dimen/secondary_text" />
+
+                <TextView
+                    android:id="@+id/guns_name2"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/guns_album_name2"
+                    android:layout_toRightOf="@id/guns_cover2"
+                    android:text="@string/guns"
+                    android:textSize="@dimen/secondary_text" />
+
+                <ImageButton style="@style/Like_Buttons" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/Boxes_Layout">
+
+                <ImageView
+                    android:id="@+id/metallica_cover2"
+                    android:layout_width="@dimen/album"
+                    android:layout_height="@dimen/album"
+                    android:src="@drawable/metallica" />
+
+                <TextView
+                    android:id="@+id/metallica_title2"
+                    style="@style/TextStyle"
+                    android:layout_toRightOf="@id/metallica_cover2"
+                    android:text="@string/metallica_song2"
+                    android:textSize="@dimen/primary_text" />
+
+                <TextView
+                    android:id="@+id/metallica_album_name2"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/metallica_title2"
+                    android:layout_toRightOf="@id/metallica_cover2"
+                    android:text="@string/metallica_album"
+                    android:textSize="@dimen/secondary_text" />
+
+                <TextView
+                    android:id="@+id/metallica_name2"
+                    style="@style/TextStyle"
+                    android:layout_below="@id/metallica_album_name2"
+                    android:layout_toRightOf="@id/metallica_cover2"
+                    android:text="@string/metallica"
+                    android:textSize="@dimen/secondary_text" />
+
+                <ImageButton style="@style/Like_Buttons" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/nowplaying"
+        style="@style/NowPlaying_Style"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <ImageButton
+            android:id="@+id/volume_button"
+            style="@style/WrapContent"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icons8_highvolume" />
+
+        <ImageButton
+            android:id="@+id/like_button"
+            style="@style/WrapContent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icons8_hearts" />
+
+        <ImageButton
+            android:id="@+id/previous_button"
+            style="@style/WrapContent"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icons8_back" />
+
+        <ImageButton
+            android:id="@+id/play_button"
+            style="@style/WrapContent"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/play_button" />
+
+        <ImageButton
+            android:id="@+id/next_button"
+            style="@style/WrapContent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icons8_forward" />
+
+        <ImageButton
+            android:id="@+id/shuffle_button"
+            style="@style/WrapContent"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icons8_shuffle" />
+
+        <ImageButton
+            android:id="@+id/repeat_button"
+            style="@style/WrapContent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icons8_repeat" />
+    </LinearLayout>
+</RelativeLayout>

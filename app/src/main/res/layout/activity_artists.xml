@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_artists"
+    style="@style/ActivitiesStyle"
+    tools:context="com.example.android.mymusicapp.ArtistsActivity">
+
+    <ScrollView
+        style="@style/MatchWrap"
+        android:layout_above="@+id/nowplaying"
+        android:padding="@dimen/margin">
+
+        <LinearLayout
+            style="@style/MatchWrap"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Artist_Boxes"
+                android:text="@string/justin" />
+
+            <TextView
+                style="@style/Artist_Boxes"
+                android:text="@string/cent" />
+
+            <TextView
+                style="@style/Artist_Boxes"
+                android:text="@string/luis_daddy" />
+
+            <TextView
+                style="@style/Artist_Boxes"
+                android:text="@string/guns" />
+
+            <TextView
+                style="@style/Artist_Boxes"
+                android:text="@string/bon" />
+
+            <TextView
+                style="@style/Artist_Boxes"
+                android:text="@string/wiz" />
+
+            <TextView
+                style="@style/Artist_Boxes"
+                android:text="@string/metallica" />
+
+            <TextView
+                style="@style/Artist_Boxes"
+                android:text="@string/ed" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/nowplaying"
+        style="@style/NowPlaying_Style"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <ImageButton
+            android:id="@+id/volume_button"
+            style="@style/WrapContent"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icons8_highvolume" />
+
+        <ImageButton
+            android:id="@+id/like_button"
+            style="@style/WrapContent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icons8_hearts" />
+
+        <ImageButton
+            android:id="@+id/previous_button"
+            style="@style/WrapContent"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icons8_back" />
+
+        <ImageButton
+            android:id="@+id/play_button"
+            style="@style/WrapContent"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/play_button" />
+
+        <ImageButton
+            android:id="@+id/next_button"
+            style="@style/WrapContent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icons8_forward" />
+
+        <ImageButton
+            android:id="@+id/shuffle_button"
+            style="@style/WrapContent"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icons8_shuffle" />
+
+        <ImageButton
+            android:id="@+id/repeat_button"
+            style="@style/WrapContent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icons8_repeat" />
+    </LinearLayout>
+</RelativeLayout>

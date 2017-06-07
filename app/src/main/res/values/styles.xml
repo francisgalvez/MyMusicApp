@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="WrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MatchWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Main_ImageButtons">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">.50</item>
+    </style>
+
+    <style name="Main_LinearLayouts">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="NowPlaying_Style" parent="MatchWrap">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="Boxes_Layout" parent="MatchWrap">
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+        <item name="android:alpha">0.8</item>
+        <item name="android:background">@color/box</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="AlbumTextStyle" parent="WrapContent">
+        <item name="android:layout_marginLeft">@dimen/margin</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextStyle" parent="AlbumTextStyle">
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="Artist_Boxes" parent="Boxes_Layout">
+        <item name="android:textSize">@dimen/primary_text</item>
+        <item name="android:padding">25dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Like_Buttons">
+        <item name="android:layout_height">@dimen/like_button</item>
+        <item name="android:layout_width">@dimen/like_button</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/favorite_button</item>
+    </style>
+
+    <style name="ActivitiesStyle" parent="MatchParent">
+        <item name="android:background">@drawable/back</item>
+    </style>
+
+</resources>

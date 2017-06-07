@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="primary_text">20sp</dimen>
+    <dimen name="secondary_text">16sp</dimen>
+    <dimen name="album">100dp</dimen>
+    <dimen name="like_button">30dp</dimen>
+</resources>

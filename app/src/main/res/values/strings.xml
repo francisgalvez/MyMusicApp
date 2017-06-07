@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">My MusicApp</string>
+    <string name="albums">Albums</string>
+    <string name="artists">Artists</string>
+    <string name="genres">Genres</string>
+    <string name="songs">Songs</string>
+    <string name="justin">Justin Bieber</string>
+    <string name="justin_song">What Do You Mean?</string>
+    <string name="justin_album">Purpose</string>
+    <string name="ed">Ed Sheeran</string>
+    <string name="ed_song">Shape Of You</string>
+    <string name="ed_album">Divide</string>
+    <string name="bon">Bon Jovi</string>
+    <string name="bon_song1">Never Say Goodbye</string>
+    <string name="bon_song2">Livin\' On A Prayer</string>
+    <string name="bon_album">Slippery When Wet</string>
+    <string name="guns">Guns N\' Roses</string>
+    <string name="guns_album">Appetite for Destruction</string>
+    <string name="guns_song1">Sweet Child O\' Mine</string>
+    <string name="guns_song2">Welcome To The Jungle</string>
+    <string name="guns_song3">Paradise City</string>
+    <string name="cent">50 Cent</string>
+    <string name="cent_song">In Da Club</string>
+    <string name="cent_album">Get Rich Or Die Tryin\'</string>
+    <string name="wiz">Wiz Khalifa</string>
+    <string name="wiz_album">The Best Of Wiz Khalifa</string>
+    <string name="wiz_song">See You Again</string>
+    <string name="metallica">Metallica</string>
+    <string name="metallica_song1">Nothing Else Matters</string>
+    <string name="metallica_song2">The Unforgiven</string>
+    <string name="metallica_album">Metallica</string>
+    <string name="luis_daddy">Luis Fonsi feat. Daddy Yankee</string>
+    <string name="despacito">Despacito</string>
+</resources>
