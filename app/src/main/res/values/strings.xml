@@ -1,9 +1,17 @@
 <resources>
     <string name="app_name">My MusicApp</string>
+    <string name="main_description">Hello and welcome! You are in the main menu, where you can go into these others: All Songs, Artists, Genres and Albums. Feel free to navigate through them!</string>
+    <string name="albums_description">Here you can search for albums of the songs you have in your music library.</string>
+    <string name="artists_description">Here you can search for the artists who sing the songs you have in your music library.</string>
+    <string name="songs_description">Here you can see and play all the songs you have in your music library.</string>
+    <string name="favorites_description">Here you can see and play all the songs you have marked as favorite.</string>
+    <string name="genres_description">Here you can go into four different genres: Hip Hop, Metal, Rock and International Music</string>
+    <string name="back_main">main menu</string>
     <string name="albums">Albums</string>
     <string name="artists">Artists</string>
     <string name="genres">Genres</string>
     <string name="songs">Songs</string>
+    <string name="all_songs">All Songs</string>
     <string name="justin">Justin Bieber</string>
     <string name="justin_song">What Do You Mean?</string>
     <string name="justin_album">Purpose</string>

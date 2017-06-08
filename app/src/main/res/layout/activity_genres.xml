@@ -4,9 +4,17 @@
     style="@style/MatchParent"
     tools:context="com.example.android.mymusicapp.MainActivity">
 
+    <TextView
+        android:id="@+id/description"
+        style="@style/Description_TextView"
+        android:paddingBottom="16dp"
+        android:text="@string/genres_description"
+        android:textColor="@color/box" />
+
     <ScrollView
         style="@style/MatchParent"
         android:layout_above="@+id/nowplaying"
+        android:layout_below="@id/description"
         android:fillViewport="true">
 
         <LinearLayout
@@ -55,12 +63,9 @@
         android:layout_alignParentBottom="true"
         android:background="@color/white">
 
-        <ImageButton
-            android:id="@+id/volume_button"
-            style="@style/WrapContent"
-            android:layout_marginRight="8dp"
-            android:background="@android:color/transparent"
-            android:src="@drawable/icons8_highvolume" />
+        <Button
+            android:id="@+id/back_main_button"
+            style="@style/BackMain_Button" />
 
         <ImageButton
             android:id="@+id/like_button"
@@ -71,14 +76,12 @@
         <ImageButton
             android:id="@+id/previous_button"
             style="@style/WrapContent"
-            android:layout_marginRight="8dp"
             android:background="@android:color/transparent"
             android:src="@drawable/icons8_back" />
 
         <ImageButton
             android:id="@+id/play_button"
             style="@style/WrapContent"
-            android:layout_marginRight="8dp"
             android:background="@drawable/play_button" />
 
         <ImageButton
@@ -87,17 +90,16 @@
             android:background="@android:color/transparent"
             android:src="@drawable/icons8_forward" />
 
+        <Button
+            android:id="@+id/all_songs_button"
+            style="@style/AllSongs_Button"
+            android:text="@string/all_songs" />
+
         <ImageButton
-            android:id="@+id/shuffle_button"
+            android:id="@+id/volume_button"
             style="@style/WrapContent"
             android:layout_marginRight="8dp"
             android:background="@android:color/transparent"
-            android:src="@drawable/icons8_shuffle" />
-
-        <ImageButton
-            android:id="@+id/repeat_button"
-            style="@style/WrapContent"
-            android:background="@android:color/transparent"
-            android:src="@drawable/icons8_repeat" />
+            android:src="@drawable/icons8_highvolume" />
     </LinearLayout>
 </RelativeLayout>

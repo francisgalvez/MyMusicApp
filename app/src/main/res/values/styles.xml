@@ -39,7 +39,10 @@
     <style name="NowPlaying_Style" parent="MatchWrap">
         <item name="android:orientation">horizontal</item>
         <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:padding">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
     </style>
 
     <style name="Boxes_Layout" parent="MatchWrap">
@@ -76,6 +79,35 @@
 
     <style name="ActivitiesStyle" parent="MatchParent">
         <item name="android:background">@drawable/back</item>
+    </style>
+
+    <style name="Description_TextView" parent="MatchWrap">
+        <item name="android:paddingRight">@dimen/margin</item>
+        <item name="android:paddingLeft">@dimen/margin</item>
+        <item name="android:paddingTop">@dimen/margin</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:textSize">@dimen/secondary_text</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BackMain_Button">
+        <item name="android:layout_height">@dimen/back_button</item>
+        <item name="android:layout_width">@dimen/back_button</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:textColor">@color/box</item>
+        <item name="android:textSize">@dimen/secondary_text</item>
+        <item name="android:text">@string/back_main</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="AllSongs_Button">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">@dimen/all_songs_button</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:textColor">@color/box</item>
+        <item name="android:textSize">@dimen/secondary_text</item>
+        <item name="android:text">@string/all_songs</item>
+        <item name="android:background">@android:color/transparent</item>
     </style>
 
 </resources>
