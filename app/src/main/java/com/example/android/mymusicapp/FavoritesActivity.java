@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 
 public class FavoritesActivity extends AppCompatActivity {
 
@@ -14,18 +13,18 @@ public class FavoritesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_favorites);
 
-        // Find the View that shows the like button
-        ImageButton likeButton = (ImageButton) findViewById(R.id.like_button);
+        // Find the View that shows the genres' button
+        Button genresButton = (Button) findViewById(R.id.genres_button);
         // Set a click listener on that View
-        likeButton.setOnClickListener(new View.OnClickListener() {
+        genresButton.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NumbersActivity}
-                Intent likeButtonIntent = new Intent(FavoritesActivity.this, FavoritesActivity.class);
+                // Create a new intent to open the {@link GenresActivity}
+                Intent genresButtonIntent = new Intent(FavoritesActivity.this, GenresActivity.class);
 
                 // Start the new activity
-                startActivity(likeButtonIntent);
+                startActivity(genresButtonIntent);
             }
         });
 

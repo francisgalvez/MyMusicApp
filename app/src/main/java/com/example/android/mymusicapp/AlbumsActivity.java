@@ -44,18 +44,18 @@ public class AlbumsActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the All Songs button
-        Button allSongsButton = (Button) findViewById(R.id.all_songs_button);
+        // Find the View that shows the Artists button
+        Button artistsButton = (Button) findViewById(R.id.artists_button);
         // Set a click listener on that View
-        allSongsButton.setOnClickListener(new View.OnClickListener() {
+        artistsButton.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link SongsActivity}
-                Intent allSongsButtonIntent = new Intent(AlbumsActivity.this, SongsActivity.class);
+                // Create a new intent to open the {@link ArtistsActivity}
+                Intent artistsButtonIntent = new Intent(AlbumsActivity.this, ArtistsActivity.class);
 
                 // Start the new activity
-                startActivity(allSongsButtonIntent);
+                startActivity(artistsButtonIntent);
             }
         });
     }

@@ -206,11 +206,10 @@
             android:id="@+id/back_main_button"
             style="@style/BackMain_Button" />
 
-        <ImageButton
-            android:id="@+id/like_button"
-            style="@style/WrapContent"
-            android:background="@android:color/transparent"
-            android:src="@drawable/icons8_hearts" />
+        <Button
+            android:id="@+id/all_songs_button"
+            style="@style/AllSongs_Button"
+            android:text="@string/all_songs" />
 
         <ImageButton
             android:id="@+id/previous_button"
@@ -230,9 +229,9 @@
             android:src="@drawable/icons8_forward" />
 
         <Button
-            android:id="@+id/all_songs_button"
-            style="@style/AllSongs_Button"
-            android:text="@string/all_songs" />
+            android:id="@+id/genres_button"
+            style="@style/Albums_Button"
+            android:text="@string/genres" />
 
         <ImageButton
             android:id="@+id/volume_button"

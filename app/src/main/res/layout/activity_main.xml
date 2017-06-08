@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/MatchParent"
+    android:background="@color/white"
     tools:context="com.example.android.mymusicapp.MainActivity">
 
     <TextView
@@ -61,11 +62,8 @@
         android:id="@+id/nowplaying"
         style="@style/NowPlaying_Style"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:background="@color/white">
-
-        <Button
-            android:id="@+id/back_main_button"
-            style="@style/BackMain_Button" />
 
         <ImageButton
             android:id="@+id/like_button"
@@ -89,11 +87,6 @@
             style="@style/WrapContent"
             android:background="@android:color/transparent"
             android:src="@drawable/icons8_forward" />
-
-        <Button
-            android:id="@+id/all_songs_button"
-            style="@style/AllSongs_Button"
-            android:text="@string/all_songs" />
 
         <ImageButton
             android:id="@+id/volume_button"

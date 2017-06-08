@@ -11,6 +11,7 @@
     <string name="artists">Artists</string>
     <string name="genres">Genres</string>
     <string name="songs">Songs</string>
+    <string name="favorites">Favorite Songs</string>
     <string name="all_songs">All Songs</string>
     <string name="justin">Justin Bieber</string>
     <string name="justin_song">What Do You Mean?</string>

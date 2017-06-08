@@ -297,9 +297,9 @@
             android:src="@drawable/icons8_forward" />
 
         <Button
-            android:id="@+id/all_songs_button"
-            style="@style/AllSongs_Button"
-            android:text="@string/all_songs" />
+            android:id="@+id/artists_button"
+            style="@style/Albums_Button"
+            android:text="@string/artists" />
 
         <ImageButton
             android:id="@+id/volume_button"
