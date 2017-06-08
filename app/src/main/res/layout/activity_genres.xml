@@ -5,11 +5,12 @@
     tools:context="com.example.android.mymusicapp.MainActivity">
 
     <ScrollView
-        style="@style/MatchWrap"
-        android:layout_above="@+id/nowplaying">
+        style="@style/MatchParent"
+        android:layout_above="@+id/nowplaying"
+        android:fillViewport="true">
 
         <LinearLayout
-            style="@style/Main_LinearLayouts"
+            style="@style/MatchWrap"
             android:orientation="vertical">
 
             <LinearLayout
@@ -19,13 +20,13 @@
                 <ImageButton
                     android:id="@+id/all_songs"
                     style="@style/Main_ImageButtons"
-                    android:backgroundTint="@color/colorAllSongs"
+                    android:background="@color/colorSongs"
                     android:src="@drawable/hiphop" />
 
                 <ImageButton
                     android:id="@+id/artists"
                     style="@style/Main_ImageButtons"
-                    android:backgroundTint="@color/colorArtists"
+                    android:background="@color/colorArtists"
                     android:src="@drawable/metal" />
             </LinearLayout>
 
@@ -36,13 +37,13 @@
                 <ImageButton
                     android:id="@+id/genres"
                     style="@style/Main_ImageButtons"
-                    android:backgroundTint="@color/colorGenres"
+                    android:background="@color/colorGenres"
                     android:src="@drawable/rock" />
 
                 <ImageButton
                     android:id="@+id/albums"
                     style="@style/Main_ImageButtons"
-                    android:backgroundTint="@color/colorAlbums"
+                    android:background="@color/colorAlbums"
                     android:src="@drawable/international" />
             </LinearLayout>
         </LinearLayout>
